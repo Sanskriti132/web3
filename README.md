@@ -2,7 +2,7 @@
 In this section we will be connecting our smart contract with the frontend and a METAMASK wallet to deposite or withdraw Ethers.
 
 ## Description
-It contains 3 Files namely deploy.js, index.js and SmartContract.sol in the 3 folders Scripts, Pages and Contracts respectively.
+It contains 3 Files namely app.js, index.html and Contract.sol in the 3 folders Scripts, Pages and Contracts respectively.
 
 ## Getting Started
 To run this program, you can use gitpod by clicking the link https://metacrafterc-scmstarter-endrfexphsa.ws-us114.gitpod.io/
