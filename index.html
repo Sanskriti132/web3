@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyToken DApp</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>MyToken DApp</h1>
+    <button id="connectButton">Connect to MetaMask</button>
+    <p>Account: <span id="account"></span></p>
+    <p>Token Name: <span id="tokenName"></span></p>
+    <p>Token Abbrv: <span id="tokenAbbrv"></span></p>
+    <p>Total Supply: <span id="totalSupply"></span></p>
+    <div>
+        <h2>Mint Tokens</h2>
+        <input type="text" id="mintAddress" placeholder="Address">
+        <input type="number" id="mintValue" placeholder="Value">
+        <button id="mintButton">Mint</button>
+    </div>
+    <div>
+        <h2>Burn Tokens</h2>
+        <input type="text" id="burnAddress" placeholder="Address">
+        <input type="number" id="burnValue" placeholder="Value">
+        <button id="burnButton">Burn</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
